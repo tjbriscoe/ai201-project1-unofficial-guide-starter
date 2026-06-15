@@ -18,7 +18,7 @@ MODEL_NAME = "all-MiniLM-L6-v2"
 model = SentenceTransformer(MODEL_NAME)
 tokenizer = model.tokenizer
 
-chroma_client = chromadb.Client(Settings(anonymized_telemetry=False))
+chroma_client = chromadb.PersistentClient(path="./chroma_store")
 collection = chroma_client.get_or_create_collection("ualbany_informatics")
 
 # BM25 index is rebuilt each time embed_and_store is called
@@ -468,6 +468,18 @@ if __name__ == "__main__":
                 "source_authority": 0.6,
             },
         },
+            {
+        "url": "coursicle_201.txt",
+        "source_type": "manual",
+        "meta": {
+            "source": "coursicle",
+            "url": "https://www.coursicle.com/albany/courses/CINF/201/",
+            "topic_tag": "professor_quality",
+            "date": "",
+            "author_context": "current_student",
+            "source_authority": 0.6,
+        },
+    },
         {
             "url": "https://www.reddit.com/r/ualbany/comments/adink4/informatics_bsonline/",
             "source_type": "reddit",
