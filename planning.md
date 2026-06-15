@@ -78,7 +78,7 @@ ll-MiniLM-L6-v2 is fast and lightweight but was trained on general web text. For
 | 2 |How do students rate professor availability and helpfulness in the CINF program? |RateMyProfessor and Coursicle reviews describe mixed experiences; some professors are noted as approachable and knowledgeable, others as disengaged or hard to reach outside class |
 | 3 |Is the online Informatics BS considered equivalent to the in-person program by students who have experienced both? |Reddit thread on the online program raises concerns about less networking opportunity and weaker peer interaction; no strong consensus that online is equivalent in perceived value |
 | 4 |What specific professors in the Informatics program are mentioned by name on RateMyProfessor, and what do students consistently say about their teaching style? |The two RMP sources name specific professors and repeat themes across reviews — the answer should include at least one professor's name and a pattern (e.g. heavy workload, clear lectures, or lack of feedback) rather than a generic summary|
-| 5 |What are the most commonly cited weaknesses of the CINF 301 course specifically? |Coursicle reviews for INF-301 point to specific complaints about workload structure, course organization, or instructor clarity — the answer should name concrete issues, not generic dissatisfaction |
+| 5 |What are the most commonly cited weaknesses of the CINF 201 course specifically? |Coursicle reviews for INF-301 point to specific complaints about workload structure, course organization, or instructor clarity — the answer should name concrete issues, not generic dissatisfaction |
 
 ---
 
